@@ -1,10 +1,11 @@
 .container-title {
     text-align: center;
-    background-color: rgba(128, 128, 128, 0.3);
-    box-shadow: 10px 10px 10px black;
+    background-color: #415a77;
+    box-shadow: 10px 10px 10px #0d1b2a;
     border-radius: 10px;
     width: fit-content;
-    height: 70px;
-    margin: 2rem auto 0 auto;
+    height: 100px;
+    margin: 0 auto;
     padding: 10px;
+    color: #e0e1dd;
 }

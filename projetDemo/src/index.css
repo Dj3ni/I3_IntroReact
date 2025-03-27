@@ -28,7 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: sienna;
+  background-color: #e0e1dd;
+  color: #0d1b2a;
 }
 
 h1 {
@@ -54,6 +55,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {

@@ -1,13 +1,13 @@
 function  ConditionalComponent({param = "valeur"}) {
     if(!param) {
         return(
-            <h1>Coucou je suis conditional component</h1>
+            <h4>Coucou je suis conditional component</h4>
         )
     }
      else {
          return (
              <>
-             {(param === "information") ? <h1>Param a pour valeur "{param}"</h1> :<h1> "{param}" a une autre valeur que "information" </h1>}
+             {(param === "information") ? <h4>Param a pour valeur "{param}"</h4> :<h4> "{param}" a une autre valeur que "information" </h4>}
              </>
          )
     }

@@ -1,11 +1,13 @@
 ul {
+    margin: 0;
     list-style: none;
     display: flex;
-    margin: 0;
-    background-color: green;
+    background-color: #778da9;
+    justify-content: center;
 }
 
 ul li {
+    list-style: none;
     padding: 5px;
     margin: auto;
 }

@@ -1,0 +1,19 @@
+nav {
+    background-color: #1b263b;
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+
+}
