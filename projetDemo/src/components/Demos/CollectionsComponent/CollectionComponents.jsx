@@ -8,7 +8,7 @@ function CollectionsComponent() {
     })
 
     return (
-        <ul>{listItems}</ul>
+        <ul className={"component"}>{listItems}</ul>
     )
 }
 

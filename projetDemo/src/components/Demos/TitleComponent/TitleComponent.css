@@ -4,8 +4,12 @@
     box-shadow: 10px 10px 10px #0d1b2a;
     border-radius: 10px;
     width: fit-content;
-    height: 100px;
-    margin: 0 auto;
+    height: 70px;
+    margin: 15px auto;
     padding: 10px;
     color: #e0e1dd;
+}
+
+.container-title h1 {
+    margin: 0;
 }

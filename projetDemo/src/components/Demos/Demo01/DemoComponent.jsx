@@ -2,7 +2,7 @@ import './DemoComponent.css'
 
 function DemoComponent({title = "Mon info par défaut", value}) {
     return (
-        <>
+        <div className={"component"}>
             {/*Balise sans paramètre*/}
             <h1>Hello</h1>
 
@@ -11,7 +11,7 @@ function DemoComponent({title = "Mon info par défaut", value}) {
 
             {/*Balise avec classe*/}
             <h1 className={"container"}> Hellooo</h1>
-        </>
+        </div>
     )
 }
 

@@ -11,9 +11,13 @@ nav ul {
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
+}
+
+Link:visited {
 
 }
