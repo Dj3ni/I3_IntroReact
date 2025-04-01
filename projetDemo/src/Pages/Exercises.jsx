@@ -4,6 +4,7 @@ import TitleComponent from "../components/Demos/TitleComponent/TitleComponent.js
 import '../index.css'
 import ProductList from "../components/Exercises/Exe02/ProductList.jsx";
 import Counter from "../components/Exercises/Exe03/Count.jsx";
+import Calculator from "../components/Exercises/Exe04/Calculator.jsx";
 
 function Exercises(){
     return (
@@ -15,6 +16,8 @@ function Exercises(){
             <ProductList/>
             <TitleComponent title={"Exercice 3"}/>
             <Counter/>
+            <TitleComponent title={"Exercice 4"}/>
+            <Calculator/>
 
         </div>
     )
