@@ -24,7 +24,7 @@ function Navbar() {
 
     const ListItems = list.map((item, index) => {
         return (
-            <li>
+            <li key={index}>
                 <Link to={item.link}>{item.title}</Link>
             </li>
         )

@@ -30,7 +30,7 @@ function ProductList() {
 
     const ListProduct = Products.map((item, index) => {
         return(
-            <li className={"list"}>
+            <li className={"list"} key={index}>
                 {/*<Product*/}
                 {/*   name = {item.name}*/}
                 {/*   description = {item.description}*/}
