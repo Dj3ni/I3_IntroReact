@@ -9,7 +9,8 @@ function Counter (){
         <div>
             <p>Valeur du compteur : {count}</p>
             <button onClick={()=>{setCount(count+1)}}> + </button>
-            <button onClick={()=>{setCount(0)}}>Set to 0</button>
+            <button onClick={()=>{setCount(count-1)}}> - </button>
+            <button onClick={()=>{setCount(0)}} disabled={(count === 0) ? true : false }>Set to 0</button>
         </div>
     )
 }

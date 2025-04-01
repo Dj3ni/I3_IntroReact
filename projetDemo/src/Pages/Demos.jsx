@@ -3,6 +3,7 @@ import CollectionsComponent from "../components/Demos/CollectionsComponent/Colle
 import TitleComponent from "../components/Demos/TitleComponent/TitleComponent.jsx";
 import Explanations from "./Explanations.jsx";
 import StateComponent from "../components/Demos/StateComponent/StateComponent.jsx";
+import FormComponent from "../components/Demos/FormComponent/FormComponent.jsx";
 
 function Demos() {
     return (
@@ -12,6 +13,7 @@ function Demos() {
             <ConditionalComponent  className={"container component"}/>
             <CollectionsComponent className={"container component"} />
             <StateComponent/>
+            <FormComponent/>
         </div>
     )
 }

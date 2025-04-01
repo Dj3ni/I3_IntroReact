@@ -8,6 +8,9 @@
     margin: 15px auto;
     padding: 10px;
     color: #e0e1dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-title h1 {
